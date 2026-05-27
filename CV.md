@@ -2,19 +2,9 @@
 
 ## Automation Engineer
 
-Desenvolvedor focado em automação e integração de sistemas. Escrevo software em Python, JavaScript e TypeScript, do backend ao frontend, e levo para produção.
+Python · JavaScript · TypeScript · AWS · Next.js
 
 [lucasvelosopergentino@gmail.com](mailto:lucasvelosopergentino@gmail.com) · +55 11 97719-1680 · [LinkedIn](https://www.linkedin.com/in/lucas-veloso-pergentino) · [GitHub](https://github.com/oveloso) · Carapicuíba, SP
-
----
-
-## Resumo
-
-- Desenvolvo sistemas de automação e integração em Python, Node.js/TypeScript e Next.js.
-- Construo APIs e funções serverless em AWS (Lambda, API Gateway, S3).
-- Integro sistemas heterogêneos via REST, webhooks e eventos.
-- Levo aplicações de IA (RAG e agentes) para produção.
-- Trato infraestrutura como código e faço deploy de ponta a ponta.
 
 ---
 
@@ -23,12 +13,12 @@ Desenvolvedor focado em automação e integração de sistemas. Escrevo software
 ### Automation Engineer — Grupo Growth7
 *2023 – Presente*
 
-- Desenvolvo pipelines serverless em AWS Lambda e API Gateway (Python e Node.js/TypeScript).
-- Escrevo as integrações entre Bitrix24, provedores de assinatura digital (BRLex, Autentique), Supabase e S3.
-- Construo aplicações de IA em Python e Next.js: RAG para extração documental e agentes para validação de regras.
-- Implemento validação, monitoramento de SLA e self-test nos fluxos críticos.
-- Provisiono infraestrutura como código (CDK) e faço deploy em Dokploy e Docker.
-- Modelo processos em BPMN antes de decidir o que automatizar.
+- Desenvolvimento de pipelines serverless em AWS Lambda e API Gateway, em Python e Node.js/TypeScript.
+- Integração entre Bitrix24, provedores de assinatura digital (BRLex, Autentique), Supabase e S3, via REST, webhooks e eventos.
+- Aplicações de IA em Python e Next.js: RAG para extração documental e agentes para validação de regras.
+- Validação, monitoramento de SLA e self-test em fluxos críticos.
+- Infraestrutura como código (CDK) e deploy em Dokploy e Docker.
+- Modelagem de processos em BPMN.
 
 ### Business Developer — ZemoBank (Fintech)
 *2021 – 2022*
@@ -42,29 +32,29 @@ Desenvolvedor focado em automação e integração de sistemas. Escrevo software
 ### Pipeline de Tradução Juramentada
 [github.com/oveloso/pipeline-traducao-juramentada](https://github.com/oveloso/pipeline-traducao-juramentada)
 
-- Orquestração serverless que leva um documento do CRM até a assinatura digital.
-- Etapas de validação, processamento, assinatura (BRLex/Autentique) e devolução ao processo.
-- Self-test e monitoramento de SLA embutidos.
+- Orquestração serverless de um documento do CRM até a assinatura digital.
+- Validação, processamento, assinatura (BRLex/Autentique) e devolução ao processo.
+- Self-test e monitoramento de SLA.
 - *AWS Lambda · API Gateway · S3 · Bitrix24 · CDK · Node.js/TypeScript*
 
 ### Análise de Pasta de Cidadania Italiana
 [github.com/oveloso/analise-cidadania-italiana](https://github.com/oveloso/analise-cidadania-italiana)
 
-- Triagem de documentação de cidadania com IA.
-- Extração de dados das certidões via RAG; validação de consistência genealógica via agentes.
-- Relatório de pendências para o operador.
+- Extração de dados de certidões via RAG.
+- Validação de consistência genealógica via agentes.
+- Relatório de pendências por processo.
 - *Python · Dify (RAG + Agentes) · Next.js · Supabase*
 
 ### Integrações Serverless de Processamento
 
-- Funções que processam deals e documentos no CRM e integram provedores de assinatura.
-- Comunicação por webhooks e eventos, com idempotência.
+- Processamento de deals e documentos no CRM.
+- Integração com provedores de assinatura por webhooks e eventos, com idempotência.
 - *AWS Lambda · Python · Node.js · Webhooks*
 
 ### Sistema de Requerimentos
 
-- Plataforma para geração automatizada de requerimentos cartorários.
-- RAG estruturando e validando os documentos.
+- Geração automatizada de requerimentos cartorários.
+- Estruturação e validação dos documentos com RAG.
 - *Python · Supabase · Dify · Next.js*
 
 ---
@@ -100,7 +90,3 @@ Desenvolvedor focado em automação e integração de sistemas. Escrevo software
 
 - **Global Solution 2024** — FIAP
 - **Enterprise Challenge 2025** — FIAP
-
----
-
-*Currículo mantido em Markdown — versão sempre atual em [github.com/oveloso/cv](https://github.com/oveloso/cv).*
