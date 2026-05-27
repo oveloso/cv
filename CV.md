@@ -73,8 +73,6 @@ Python · JavaScript · TypeScript · AWS · Next.js
 
 ## Formação
 
-Trajetória contínua de formação desde 2019, da base técnica em desenvolvimento à análise de dados.
-
 - **Análise de Dados & Marketing** — Tecnólogo · FIAP *(2024 – 2026, em curso)*
 - **Marketing** — Técnico · ETEC *(2023 – 2024)*
 - **Administração** — Bacharelado, incompleto · UNIP *(2021 – 2023)*
