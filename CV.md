@@ -1,126 +1,98 @@
 # Lucas Velôso Pergentino
 
-**Desenvolvedor Pleno** — Automações & Integrações · IA, RAG & APIs · AWS & GCP
-Carapicuíba, São Paulo · Brasil
+## Automation Engineer
 
-[lucasvelosopergentino@gmail.com](mailto:lucasvelosopergentino@gmail.com) · +55 11 97719-1680 · [LinkedIn](https://www.linkedin.com/in/lucas-veloso-pergentino) · [GitHub](https://github.com/oveloso)
+Construo sistemas de automação serverless que integram CRM, provedores de assinatura digital e IA, e os mantenho em produção.
+
+[lucasvelosopergentino@gmail.com](mailto:lucasvelosopergentino@gmail.com) · +55 11 97719-1680 · [LinkedIn](https://www.linkedin.com/in/lucas-veloso-pergentino) · [GitHub](https://github.com/oveloso) · Carapicuíba, SP
 
 ---
 
 ## Resumo
 
-Três anos de experiência projetando automações, integrações e aplicações que combinam CRM, IA e arquitetura serverless. Implementei o Bitrix24 como CRM em uma operação com **11 pipelines, 250 mil cards e 30 mil clientes ativos**. Construo backends em Python (FastAPI, Streamlit), frontends em Next.js e bancos com Supabase. Trabalho com Dify para RAG e agentes em produção, e uso Claude Code e Cursor diariamente como parte do fluxo de desenvolvimento.
+Engenheiro de automação com foco em integração de sistemas, arquitetura serverless e IA aplicada. Desenho e desenvolvo pipelines que conectam CRM, APIs de assinatura digital e modelos de linguagem, do trigger à entrega final. Trabalho com backend em Python e Node.js, frontend em Next.js e infraestrutura como código. Levo aplicações de RAG e agentes para produção, com validação, monitoramento e tratamento de falha.
 
 ---
 
-## Experiência profissional
+## Áreas de atuação
 
-### Tech Lead — Grupo Growth7
-*Out 2024 – Presente*
+- Automação serverless de ponta a ponta: do evento no CRM à entrega final, sem etapa manual intermediária.
+- Integração entre sistemas heterogêneos via REST, webhooks e eventos, com idempotência e tolerância a falha.
+- Aplicações de IA em produção: pipelines de RAG para extração documental e agentes para validação de regras.
+- Confiabilidade operacional: self-test, monitoramento de SLA e retenção de logs como parte da entrega.
 
-- Desenho e desenvolvimento de automações com **n8n, Make e Google Apps Script**, integrando o Bitrix24 via REST API e webhooks.
-- Estruturação de **11 pipelines** no CRM com alto volume (250k cards, 30k clientes ativos).
-- Integrações em **AWS Lambda (Python e Node.js) e API Gateway**, conectando Bitrix24, DocuSign, Supabase e S3.
-- Implementação de **pipeline automatizado de tradução juramentada** ponta a ponta (Bitrix24 → S3 → DocuSign).
-- Aplicações com **IA (RAG + agentes via Dify)** em Python e Next.js para análise documental.
-- Dashboards em Streamlit e pipelines de dados em **BigQuery** com arquitetura Medallion.
+---
 
-### Analista de Tecnologia & Automação — Grupo Growth7
-*Mar 2023 – Out 2024*
+## Experiência
 
-- Auditoria e mapeamento de processos em **BPMN**, conduzindo o diagnóstico que resultou na adoção do Bitrix24 como CRM da operação.
-- Construção de fluxos de automação com **n8n e Make**, integrando processos via REST API e webhooks.
-- Automações em **Google Apps Script** para gestão de audiências, comissões e monitoramento processual.
-- Integrações em **AWS Lambda e API Gateway** para comunicação entre sistemas internos.
+### Automation Engineer / Tech Lead — Grupo Growth7
+*2023 – Presente*
+
+Responsável pela camada de automação da operação, do desenho à produção.
+
+- Desenvolvimento de pipelines serverless em AWS Lambda e API Gateway, orquestrando documentos do CRM até a assinatura digital, com validação, monitoramento diário e self-test.
+- Integração de sistemas conectando Bitrix24, provedores de assinatura (BRLex, Autentique), Supabase e S3 via REST, webhooks e eventos.
+- Aplicações de IA em Python e Next.js: RAG para extração documental e agentes para validação de consistência em domínios como cidadania e requerimentos cartorários.
+- Infraestrutura como código (CDK) e deploy de aplicações em Dokploy e Docker.
+- Modelagem de processos em BPMN como base para as decisões de automação.
 
 ### Business Developer — ZemoBank (Fintech)
-*Jan 2021 – Fev 2022*
+*2021 – 2022*
 
-- Prospecção e atendimento de clientes, presencial e online, para o produto **Contractor Pay**.
+Prospecção e atendimento de clientes para o produto Contractor Pay.
 
 ---
 
 ## Projetos
 
+**Pipeline de Tradução Juramentada** — [repo](https://github.com/oveloso/pipeline-traducao-juramentada)
+Orquestração serverless que leva um documento do CRM até a assinatura digital: valida, processa, assina (BRLex/Autentique) e devolve ao processo, com self-test e monitoramento de SLA.
+*AWS Lambda · API Gateway · S3 · Bitrix24 · CDK*
+
+**Análise de Pasta de Cidadania Italiana** — [repo](https://github.com/oveloso/analise-cidadania-italiana)
+Triagem de documentação de cidadania com IA: extração de dados das certidões via RAG, validação de consistência genealógica via agentes e relatório de pendências.
+*Python · Dify (RAG + Agentes) · Next.js · Supabase*
+
+**Integrações Serverless de Processamento**
+Funções que processam deals e documentos no CRM e integram provedores de assinatura, fechando o ciclo operacional.
+*AWS Lambda · Python · Node.js · Webhooks*
+
 **Sistema de Requerimentos**
-Plataforma para geração automatizada de requerimentos cartorários, com integração via API REST e uso de IA (RAG) para estruturação e validação de documentos. *Python · Supabase · Dify · Next.js.*
-
-**Análise de Pasta de Cidadania**
-Solução com IA para análise de documentação de cidadania italiana, verificando completude e pendências por meio de RAG e agentes inteligentes. *Python · Dify (RAG + Agentes) · Next.js · Supabase.*
-
-**Dashboards EU na Europa**
-Relatórios e dashboards para acompanhamento de processos da operação europeia, apoiando análise de indicadores e tomada de decisão. *Python · Streamlit · Pandas.*
-
-**Pipeline de Tradução Juramentada**
-Pipeline automatizado para produção, envelopamento em lotes e assinatura digital integrada ao fluxo operacional. *Bitrix24 (SPAs) · AWS Lambda · API Gateway · S3 · Supabase Edge Functions · DocuSign API.*
-
-**Integrações Serverless**
-Integrações serverless para comunicação entre sistemas e APIs externas, garantindo escalabilidade e automação de processos. *AWS Lambda · API Gateway · Python · Node.js · Webhooks.*
+Plataforma para geração automatizada de requerimentos cartorários, com RAG estruturando e validando os documentos.
+*Python · Supabase · Dify · Next.js*
 
 ---
 
-## Competências
+## Stack
 
-**Automação**
-n8n · Make · Google Apps Script · Webhooks
+Backend em **Python** e **Node.js**, frontend em **Next.js**.
 
-**Cloud**
-AWS (Lambda · S3 · API Gateway) · GCP (BigQuery · Looker Studio)
-
-**IA**
-Uso diário de Claude Code, Cursor e Dify (RAG, agentes e workflows) · Prompt engineering
-
-**CRM**
-Bitrix24 (SPAs · Webhooks · API REST) · BPMN
-
-**Frontend**
-Next.js · React
-
-**APIs & Serverless**
-AWS Lambda · API Gateway · APIs REST · S3 · Supabase Edge Functions · DocuSign API · OAuth · JWT
-
-**Infra & Deploy**
-Dokploy · Supabase · Docker
-
-**Dados & BI**
-BigQuery · Looker Studio · Streamlit
-
-**Linguagens**
-Python (FastAPI · Streamlit · Pandas) · JavaScript · Node.js · C#
-
-**Ferramentas**
-Git · GitHub · VS Code
+- **Serverless & integração** — AWS Lambda, API Gateway, S3, webhooks, APIs REST, OAuth/JWT
+- **IA aplicada** — Dify (RAG + agentes), prompt engineering, Claude Code e Cursor
+- **Automação** — n8n, Make, Google Apps Script
+- **Dados & infra** — Supabase, BigQuery, Dokploy, Docker, CDK
+- **Domínio** — Bitrix24 (SPAs, webhooks, REST), BPMN
 
 ---
 
 ## Formação
 
-**Marketing & Análise de Dados — Tecnólogo**
-FIAP, São Paulo · *Jun 2024 – Jun 2026*
-
-**Desenvolvimento de Sistemas — Técnico**
-ETEC, Barueri · *Ago 2021 – Dez 2023*
-
-**Marketing — Técnico**
-ETEC, Osasco · *Jan 2023 – Jun 2024*
-
-**Administração — Bacharelado**
-UNIP, Barueri · *Jan 2023 – Jun 2024*
+- **Marketing & Análise de Dados** — Tecnólogo · FIAP *(2024 – 2026)*
+- **Desenvolvimento de Sistemas** — Técnico · ETEC *(2021 – 2023)*
+- **Administração** — Bacharelado · UNIP
 
 ---
 
 ## Idiomas
 
-- **Português** — C2 (nativo)
-- **Inglês** — B2
+**Português** nativo · **Inglês** B2
 
 ---
 
 ## Premiações
 
-- **Global Solution 2024** — FIAP
-- **Enterprise Challenge 2025** — FIAP
+**Global Solution 2024** · **Enterprise Challenge 2025** — FIAP
 
 ---
 
-*Currículo mantido em Markdown — versão sempre atualizada em [github.com/oveloso/cv](https://github.com/oveloso/cv).*
+*Currículo mantido em Markdown — versão sempre atual em [github.com/oveloso/cv](https://github.com/oveloso/cv).*
